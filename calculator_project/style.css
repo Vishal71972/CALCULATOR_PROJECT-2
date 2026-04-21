@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700&display=swap');
+
+/* ── Global ─────────────────────────────────────────── */
+html, body, [class*="css"] {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #0f0f0f;
+    color: #00ff88;
+}
+
+.main {
+    background-color: #0f0f0f;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 100%);
+}
+
+/* ── Buttons ─────────────────────────────────────────── */
+div.stButton > button {
+    width: 100%;
+    height: 62px;
+    border-radius: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #00ff8833;
+    background: #1a1a2e;
+    color: #00ff88;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+
+div.stButton > button:hover {
+    background: #00ff8822;
+    border-color: #00ff88;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #00ff8855;
+}
+
+div.stButton > button:active {
+    transform: scale(0.97);
+}
+
+/* ── Display Screen ──────────────────────────────────── */
+.display-box {
+    background: #111;
+    border: 2px solid #00ff8844;
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-family: 'Orbitron', monospace;
+    font-size: 28px;
+    color: #00ff88;
+    text-align: right;
+    min-height: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    box-shadow: inset 0 0 20px #00ff8811, 0 0 10px #00ff8811;
+    word-break: break-all;
+}
+
+/* ── History ─────────────────────────────────────────── */
+.history-box {
+    font-size: 13px;
+    color: #00ff8877;
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 4px;
+    min-height: 20px;
+}
+
+/* ── Title ───────────────────────────────────────────── */
+.title-text {
+    font-family: 'Orbitron', monospace;
+    font-size: 26px;
+    color: #00ff88;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 20px #00ff8888;
+}
+
+/* ── Mode Label ──────────────────────────────────────── */
+.mode-label {
+    font-size: 13px;
+    color: #00ff8877;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* ── Result Box ──────────────────────────────────────── */
+.result-box {
+    background: #111;
+    border: 2px solid #00ff8844;
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-family: 'Orbitron', monospace;
+    font-size: 22px;
+    color: #00ff88;
+    text-align: center;
+    margin-top: 16px;
+    box-shadow: inset 0 0 20px #00ff8811;
+}
+
+/* ── Divider ─────────────────────────────────────────── */
+hr {
+    border-color: #00ff8822;
+}
+
+/* ── Footer ──────────────────────────────────────────── */
+.footer-text {
+    text-align: center;
+    color: #00ff8844;
+    font-size: 12px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* ── Number Inputs ───────────────────────────────────── */
+input[type=number] {
+    background: #1a1a2e !important;
+    color: #00ff88 !important;
+    border: 1px solid #00ff8833 !important;
+    border-radius: 8px !important;
+    font-family: 'Share Tech Mono', monospace !important;
+}
+
+/* ── Selectbox ───────────────────────────────────────── */
+div[data-baseweb="select"] > div {
+    background: #1a1a2e !important;
+    border-color: #00ff8833 !important;
+    color: #00ff88 !important;
+}
